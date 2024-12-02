@@ -1,0 +1,138 @@
+.topcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.option {
+  font-size: 13px;
+  color: black;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+.btn8 {
+  background-color: #d74848;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 60px;
+}
+.option:hover {
+  color: #0f8bfd;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+}
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  margin-bottom: 0px;
+}
+.text {
+  background-color: #4c629233;
+  border-radius: 5px;
+  margin-left: 70px;
+  margin-top: 0px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px cyan;
+}
+.contentHeader {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.contentHeader:hover {
+  text-decoration: underline;
+  color: #0f8bfd;
+}
+.text:hover {
+  box-shadow: 0px 3px 20px aqua;
+}
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+}
+.name-container2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.cb {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-top: 26px;
+}
+.profile-container2 {
+  margin-left: 30px;
+}
+.namecb {
+  font-size: 18px;
+}
+.time {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.dots {
+  padding-left: 80px;
+  cursor: pointer;
+  outline: none;
+  padding-right: 30px;
+}
+.time2 {
+  color: gray;
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.radiobox-container {
+  display: flex;
+}
+.btn10 {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to left, cyan, blue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  height: 45px;
+}
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 400px;
+}
+.label {
+  font-size: 17px;
+  font-family: 'Roboto';
+  padding-right: 20px;
+}
+.inputEl {
+  width: 200px;
+  border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+}
+.media {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}

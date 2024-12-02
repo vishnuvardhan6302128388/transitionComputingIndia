@@ -1,0 +1,127 @@
+.greetingsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px gray;
+  padding: 1px;
+}
+.firstContainer1 {
+  display: flex;
+  align-items: center;
+}
+.head3 {
+  font-size: 17px;
+  padding-right: 8px;
+}
+.sub1 {
+  display: flex;
+  align-items: center;
+}
+.media2 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.greet {
+  color: white;
+  font-weight: bold;
+}
+.preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+.copy {
+  background-color: white;
+  width: 130px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #0f8bfd;
+  font-weight: 700;
+  padding: 3px;
+  margin-right: 5px;
+}
+.preview {
+  background-color: white;
+  width: 130px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #0f8bfd;
+  font-weight: 700;
+  padding: 3px;
+}
+
+.btnsContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+.btn11 {
+  background-image: linear-gradient(to left, cyan, blue);
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  color: white;
+  margin-left: 10px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+.head5 {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 5px;
+}
+
+.inputEl2 {
+  width: 290px;
+  height: 35px;
+  margin: 10px;
+}
+.actionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.btn12 {
+  background-color: #0f8bfd;
+  color: white;
+  width: 130px;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+}
+.btn13 {
+  color: #0f8bfd;
+  width: 130px;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  margin: 3px;
+  box-shadow: 0px 3px 10px gray;
+}
+.fav-container {
+  display: flex;
+  align-items: center;
+}
+.head6 {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.desc5 {
+  width: 300px;
+  background-color: lightgray;
+  border: 2px solidg black;
+  border-radius: 5px;
+  padding: 5px;
+}
